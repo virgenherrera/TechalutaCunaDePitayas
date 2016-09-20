@@ -1,0 +1,15 @@
+1.-	adjuntar la hoja de estilos del gmap entre <head> y </head>
+
+2.- 	agregar las siguientes propiedades al div donde aparecera el mapa:
+id="map_canvas"
+
+3.-	justo debajo del div que contiene el gmap, incluir el script de google maps:
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+4.-	incluir en el siguiente orden los archivos:
+js/gmaps/jquery.min.js
+js/gmaps/demo.js
+js/gmaps/jquery.ui.map.js
+js/gmaps/coordenadas_gmap.js
+
+5.- personalizar el mapa en el archivo: coordenadas_gmap.js
